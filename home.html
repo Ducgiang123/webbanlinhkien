@@ -1,0 +1,170 @@
+{% extends "app/base.html" %}
+{% load static%}
+{% block banner_slider %}
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'app/images/banner/pic7.jpg' %}" class="d-block w-100" alt=" " style="width: 30px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/pic2.jpg' %}" class="d-block w-100" alt="..." style="width: 30px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/pic5.jpg' %}" class="d-block w-100" alt="..." style="width: 30px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/pic6.jpg' %}" class="d-block w-100" alt="..." style="width: 30px; height: 500px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+{% endblock banner_slider %}
+{% block main-content%}
+<div class="row product-row">
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/cpu-itel-c5.jpeg' %}">
+    <div class="box-element product">
+      <h6><strong>CPU Intel Core i5 11400F (Intel LGA1200 - 6 Core - 12 Thread - Base 2.6Ghz - Turbo 4.4Ghz - Cache 12MB - No iGPU)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>3.299.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/cpu-i7.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>CPU Intel Core i7 12700F (Intel LGA1700 - 12 Core - 20 Thread - Base 2.1Ghz - Turbo 4.9Ghz - Cache 25MB - No iGPU)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>7.199.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/cpu-i9.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>CPU Intel Core i9-12900KF (30M Cache, up to 5.20 GHz, 16C24T, Socket 1700)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>9.999.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/cpu-rizen7.png' %}">
+    <div class="box-element product">
+      <h6><strong>CPU AMD Ryzen 7 5700X3D (AMD AM4 - 8 Core - 16 Thread - Base 3.0Ghz - Turbo 4.1Ghz - Cache 100MB)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>6.999.000 đ</strong></h4>
+    </div>
+  </div>
+</div>
+<div class="row product-row">
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/vga1.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>VGA Asus ROG STRIX RTX 4060 TI OC 8GB GAMING (ROG-STRIX-RTX4060TI-O8G-GAMING)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>14.99.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/vga2.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>VGA Asus ROG Strix GeForce RTX 4070 12GB OC GDDR6X (ROG-STRIX-RTX4070-O12G-GAMING)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>21.999.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/vga3.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>VGA GIGABYTE GeForce RTX 3060 GAMING OC 12G (rev. 2.0) (GV-N3060GAMING OC-12GD)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>8.599.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/vga6.png' %}">
+    <div class="box-element product">
+      <h6><strong>VGA GIGABYTE GeForce GTX 1650 D6 WINDFORCE 4G (GV-N1656WF2-4GD)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>3.929.000 đ</strong></h4>
+    </div>
+  </div>
+</div>
+<div class="row product-row">
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/Mb1.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>Mainboard Asus PRIME B650M-A-CSM DDR5</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>4.599.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/mb2.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>Mainboard ASUS PRIME H510M-K R2.0 (box)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>1.689.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/mb3.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>Mainboard Asus ROG MAXIMUS Z790 FORMULA DDR5 (Wifi+Bluetooth+Thunderbolt 4)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>19.699.000 đ</strong></h4>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <img class="thumbnail" src="{% static 'app/images/mb4.jpg' %}">
+    <div class="box-element product">
+      <h6><strong>Mainboard Gigabyte B650 Gaming X AX DDR5 (Wifi+Bluetooth)</strong></h6>
+      <hr>
+
+      <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+      <a class="btn btn-outline-success" herf="a">Xem</a>
+      <h4 style="display: inline-block; float:right"><strong>5.599.000 đ</strong></h4>
+    </div>
+  </div>
+</div>
+<br /><br /><br />
+{% endblock main-content %}
